@@ -4,7 +4,7 @@
 ./data.py
 
 #mean of logins in September
-./mean.R < SeptOutput > SepMean.txt
+./mean.R < SeptOutput.txt > SepMean.txt
 
 #mean of logins in January
 ./mean.R < JanOutput.txt > JanMean.txt
